@@ -1,0 +1,23 @@
+.container {
+    background: palegreen;
+    padding: 20px;
+    margin: 20px;
+
+    display: flex;
+}
+
+.item {
+    background: orange;
+    margin: 10px;    
+}
+
+#container-01 {
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+}
+
+#container-02 {
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    height: 300px;
+}

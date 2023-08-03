@@ -1,0 +1,28 @@
+.container {
+    background: palegreen;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.item {
+    background: orange;
+    margin: 10px;
+}
+
+#container-01 {
+    /* flex-direction: row;*/
+    flex-flow: row wrap;
+}
+
+#container-02 {
+    /* flex-direction: column; */
+    flex-flow: column wrap-reverse;
+    height: 300px;    
+}
+
+/* short hand -- Flex-flow - padrão = flex-flow: row nowrap;*/

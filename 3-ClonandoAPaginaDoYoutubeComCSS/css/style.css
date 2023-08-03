@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    background-color: #F9F9F9; 
+}
+
+.menu-container {
+    background: #FFF;
+}
+
+/* header*/
+header {
+    display: flex;    
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; 
+}
+
+
+.start {    
+    display:flex;
+    align-items: center;
+     
+}
+ 
+ .logo img {
+    margin-left: 40px;
+    object-fit: cover;                  
+}
+
+.end {   
+    gap: 24px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.center input {
+    width: 348px;
+    height: 40px;   
+    border: 1px solid #CCCCCC;
+    border-radius: 15px 0 0 15px;
+}
+
+.center button {
+    width: 57px;
+    height: 40px;    
+    border: 1px solid #CCCCCC;
+    border-radius: 0 15px 15px 0;
+    margin-left: -5px;    
+} 
+
+
+
+/*main*/
+
+main {
+    display: flex;
+    align-items: flex-start;
+    width: 1440px;
+    padding: 0 24px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.watching-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px 80px;
+}
+
+h1 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video-actions {
+    display: flex;
+    width: 952px;
+    flex-shrink: 0;
+    gap: 36px;
+}
+
+figure {
+    margin: 0;
+}
+
+.dio-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.channel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.channel-name {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;    
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.channel-subscribers {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;    
+    font-weight: 400;    
+}
+
+.subscribe {
+    width: 159px;
+    height: 40px;    
+    border-radius: 2px;
+    background: #C00;
+    color: #FFF;
+    border: 1px solid gray;
+    font-family: Roboto;
+    font-size: 14px;    
+    font-weight: 600;    
+    text-transform: uppercase;
+}
+
+.thumbs-up, .thumbs-down, .share, .download {
+    display: flex;
+    align-items: center;
+    background-color: #F9F9F9;
+    border: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;    
+    font-weight: 600;    
+    cursor: pointer;
+}
+
+.video-stats {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;    
+    font-weight: 600;    
+}
+
+.video-description {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 510px;
+    margin-top: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 0;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+}
+
+.thumb, .video-player {
+    cursor: pointer;
+}
+
+.related-video {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.infos {
+    width: 196px;
+    height: 89px;
+}
+
+
+    
+.thumb-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;    
+    font-weight: 600;    
+    margin: 0 0 5px 0;
+    cursor: pointer;
+}
+
+.thumb-channel, .thumb-stats {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+ 
+
+
+

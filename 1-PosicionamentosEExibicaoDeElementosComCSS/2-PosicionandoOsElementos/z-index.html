@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        body {
+            font-family: Roboto, sans-serif;
+            height: 200vh;
+        }
+
+        .exemplo {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            position: absolute;            
+        }
+        
+        
+        #elemento-1 {
+            background-color: orange;
+            left: 10px;
+            top: 10px;
+            z-index: 1;
+        }
+
+        #elemento-2 {
+           background-color: palevioletred;    
+           left: 20px;
+           top: 20px;
+           z-index: 2;               
+
+        }      
+
+        #elemento-3 {
+           background-color: palegreen; 
+           left: 30px;
+           top: 30px;
+        }
+      
+
+        #elemento-4 {
+            background-color: paleturquoise;
+            left: 40px;
+            top: 40px;
+        }
+
+        #elemento-5 {
+            background-color: violet; 
+            left: 50px;
+            top: 50px;        
+        }
+
+        #elemento-6 {
+            background-color: blueviolet;
+            left: 60px;
+            top: 60px;
+        }    
+    </style>
+</head>
+<body>
+    <h1>Propriedade z-index</h1>
+       
+
+    <div id="elemento-1" class="exemplo">Elementos 01</div>
+    <div id="elemento-2" class="exemplo">Elementos 02</div>
+    <div id="elemento-3" class="exemplo">Elementos 03</div>
+    <div id="elemento-4" class="exemplo">Elementos 04</div>
+    <div id="elemento-5" class="exemplo">Elementos 05</div>
+    <div id="elemento-6" class="exemplo">Elementos 06</div>
+
+</body>
+</html>

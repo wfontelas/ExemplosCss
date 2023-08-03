@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        body {
+            font-family: Roboto, sans-serif;
+        }
+
+        .exemplo {
+            background-color: palevioletred;
+        }
+
+        .inline {
+           color: white;
+            
+        }
+
+        .inline-block {
+            display: inline-block;
+            width: 200px;           
+            margin: 8px;
+            padding: 30px;
+        }
+
+        b {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .menu {
+            background-color: plum;            
+        }
+
+        .menu ul li {
+            display: inline-block;
+            padding: 20px 40px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+        }
+
+        .esconder-elemento {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade display</h1>
+    <p>A propriedade display vai determinar como essas caixinhas retangulares irão se comportar na hora de serem exibidas na tela.</p>
+
+    <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+    </ul>
+
+    <h2>Exemplos:</h2>
+
+    <code>display : block;</code>
+    <br><br>
+    <div class="exemplo">Exemplo Bloco 01</div>
+    <div class="exemplo">Exemplo Bloco 02</div>
+
+    <br><br>
+    <code>display: inline;</code>
+    <br><br>
+
+    <span class="exemplo">Exemplo Inline 01</span>
+    <span class="exemplo inline">Exemplo Inline 02</span>
+    <em class="exemplo">Exemplo inline 03</em>  
+    <b class="exemplo">Exemplo inline 04</b>  
+
+    <br><br>
+    <code>display: inline-block;</code>
+    <br><br>
+    <span class="exemplo inline-block">Exemplo Inline-block 01</span>
+    <span class="exemplo inline-block">Exemplo Inline-block 02</span>
+    <em class="exemplo inline-block">Exemplo Inline-block 03</em>  
+    <b class="exemplo inline-block">Exemplo Inline-block 04</b>  
+    <span class="exemplo inline-block">Exemplo Inline-block 05</span>
+    <span class="exemplo inline-block">Exemplo Inline-block 06</span>
+    <br><br>
+
+    <p>Lorem, <b class="exemplo">ipsum dolor sit amet</b> consectetur adipisicing elit. Quae quis neque vero repellat nisi. Fugit nobis eveniet libero deserunt, maiores reiciendis ad officiis totam, aut voluptatum repellat harum possimus eos!</p>
+    <br><br>
+
+    <p>Lorem, <b class="inline-block exemplo">ipsum dolor sit amet</b> consectetur adipisicing elit. Quae quis neque vero repellat nisi. Fugit nobis eveniet libero deserunt, maiores reiciendis ad officiis totam, aut voluptatum repellat harum possimus eos!</p>
+
+    <br><br>
+    <code>display: none;</code>
+    <br><br>
+
+    <div class="exemplo esconder-elemento">Exemplo 01</div>
+
+    <br><br><br>
+    <h3>Menu de Nav</h3>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Meu link 01</a></li>
+            <li><a href="#" class="esconder-elemento">Meu link 02</a></li>
+            <li><a href="#">Meu link 03</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

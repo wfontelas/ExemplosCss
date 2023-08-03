@@ -1,0 +1,41 @@
+.container {
+    background: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+
+
+    /*flex container props*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#container-1 {
+    flex-direction: column;
+}
+
+.item {   
+    background: yellow;
+    /* width: 100px;*/
+    text-align: center;
+    /* flex-grow: 1;    */
+
+    /**Shorthand FLEX**/
+
+    /* flex: <grow> <shrink> <basis>*/
+    /* flex: 1 1 auto;   */
+
+    flex: 1;
+}
+
+.item-02 {
+    /*flex-basis: 300px; /*pode usar palavras chaves min-content ou max-content e porcentagem */
+
+    align-self: flex-end;
+
+} 
+
+
